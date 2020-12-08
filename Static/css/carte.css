@@ -1,0 +1,84 @@
+.cards {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.cards h2.header {
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1.header {
+  text-align: center;
+  font-size: 45px;
+  margin: 25px 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content {
+  text-align: center;
+  overflow-block: auto;
+  height: 20rem;
+  width: 16rem;
+  border: 2px solid teal;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5rem;
+}
+.content > * {
+  flex: 1 1 100%;
+}
+.content:hover {
+  color: white;
+  background-color: teal;
+  box-shadow: 1px 1px 5px black;
+}
+.content:hover a {
+  color: teal;
+  border-color: white;
+  background: white;
+}
+
+.title-profl{
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 0.6rem;
+}
+
+.content h2 {
+  font-size: 1.5em;
+  margin: 16px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.content p {
+  font-size: 17px;
+}
+.content a {
+  margin: 18px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 0.2rem;
+  border-radius: 1.2rem;
+  transition: 0.3s ease;
+}
+.content a:hover {
+  border-radius: 4px;
+}
+

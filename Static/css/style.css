@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+}
+
+body {
+  background-color: #f2f7fb;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.head-bar {
+  height: 11%;
+  width: 84.8%;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  border-bottom: 1px solid gray;
+  vertical-align: middle;
+  letter-spacing: 2px;
+  background-color: white;
+}
+
+.nav-side {
+  height: 100%;
+  width: 15%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: #2a3f54;
+  color: white;
+  z-index: 100;
+}
+
+.title {
+  margin-top: 10%;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.head-title {
+  font-size: 2.5em;
+  color: #669999;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.float-square {
+  width: 14.6%;
+  height: 51%;
+  border: 2px solid #149b7d;
+  border-radius: 0.5rem;
+  margin-right: 1.04%;
+  position: absolute;
+  right: 1.04%;
+  top: 30.61%;
+  text-align: center;
+}
+
+.menu {
+  font-size: 1em;
+  color: white;
+  width: auto;
+}
+
+.contain {
+  background-color: white;
+  border: 0px solid white;
+  border-radius: 0.2rem;
+  width: 67.36%;
+  height: 85%;
+  position: absolute;
+  right: 17%;
+  left: 15.64%;
+  top: 12%;
+  overflow: auto;
+}
+
+.writting-zone {
+  height: 10%;
+  color: #6b8196;
+}
+
+.img-profil {
+  margin: 0.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  border: 3px white solid;
+  border-radius: 100%;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.auth {
+  margin: 0.5rem;
+}
+
+.search {
+  width: 30rem;
+  height: 1.8rem;
+  border-radius: 3px;
+  border: solid 1px #149b7d;
+  position: absolute;
+  left: 30%;
+  top: 5.5%;
+  text-align: left;
+  letter-spacing: 5px;
+  padding-left: 5px;
+}
+
+.position {
+  font-size: 1.2em;
+  position: absolute;
+  left: 74%;
+  top: 6.2%;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.on-list {
+  font-size: 1.2em;
+  padding-left: 20px;
+}
+
+.on-list a {
+  padding-left: 0px;
+}
+
+.under {
+  height: auto;
+}
+
+.name {
+  opacity: 0.5;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95em;
+  padding-left: 45px;
+  font-weight: 500;
+  width: 100%;
+}
+
+nav ul li {
+  line-height: 35px;
+}
+
+nav ul li:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.pied {
+  color: white;
+  font-size: 0.7em;
+  position: absolute;
+  bottom: 0;
+  left: 2rem;
+}
+
+/* Livre */
+
+.livre-title {
+  text-align: center;
+}
+
+.livre-title h2 {
+  font-size: 2em;
+  color: #149b7d;
+}
+
+.livre-title p {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #6b8196;
+}
+
+.livre {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  line-height: 2.5rem;
+}
+
+/* Partie Emprunt */
+
+.emprunt {
+  height: 30rem;
+  width: 100%;
+  text-align: center;
+}
+
+.emprunt h2 {
+  font-size: 2em;
+  color: #149b7d;
+}
+
+.emprunt p {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #6b8196;
+}
+
+/* Partie de Retour */
+
+.retour {
+  height: 30rem;
+  width: 100%;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.retour h2 {
+  font-size: 2em;
+  color: #149b7d;
+}
+
+.retour p {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #6b8196;
+}
+
+img[alt="photo-de-profile"] {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+button[name="desactiver"] {
+  height: 2.2rem;
+  width: 5.2rem;
+  border: 1px solid teal;
+  background-color: teal;
+  border-radius: 2rem;
+  margin: 0.5rem;
+}
+
+button[name="desactiver"]:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.deconnexion {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  width: 100%;
+}
+
+.deconnexions {
+  position: absolute;
+  top: 30%;
+  right: 2%;
+  width: 100%;
+}
+
+.parametre {
+  text-align: center;
+}
+
+.parametre a {
+  text-decoration: none;
+  color: white;
+}
+
+.parametre a {
+  line-height: 35px;
+  width: 100%;
+}
+
+.parametre a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+.action-off {
+  visibility: hidden;
+}
+
+.info-book {
+  display: flex;
+  justify-content: left;
+}
+
+img[alt="livres"] {
+  height: 100%;
+  width: 100%;
+}
+
+.img-book {
+  margin: 0.5rem;
+  height: 20rem;
+  width: 15rem;
+}
+
+.detail-book {
+  margin: 0.5rem;
+  padding-top: 18%;
+  width: 30rem;
+  height: auto;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.resume-book {
+  text-align: center;
+  margin: 1rem;
+}
+
+.resume-book p {
+  color: #6b8196;
+}
+
+.book-title {
+  text-align: center;
+  font-style: italic;
+  font-size: 2.5rem;
+}
+
+/* Tableau */
+.tableau {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tableau h2 {
+  font-size: 2em;
+  margin: 1rem;
+}
+
+table,
+td,
+th,
+tr {
+  width: 60rem;
+  height: 3.5rem;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  border: 1px solid white;
+  background-color: teal;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+td,
+tr {
+  background-color: #f2f7fb;
+  border: 1px solid white;
+}
+
+form[name="emprunt"] {
+  position: absolute;
+  top: 20rem;
+  left: 35%;
+}
+
+.btn11 {
+  position: absolute;
+  top: 5rem;
+  left: 7rem;
+}
+
+.vert {
+  color: #149b7d;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.stats {
+  font-style: italic;
+  color: #6b8196;
+}
+
+.containers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.livres-containt {
+  height: 15rem;
+  width: 40rem;
+  margin: 2rem;
+}
+
+.bbb {
+  position: absolute;
+  bottom: 0;
+}
+
+.tableaus {
+  padding: 3rem;
+  text-align: center;
+}
+
+.mail {
+  text-align: center;
+}
+
+.messa {
+  text-align: center;
+  font-style: italic;
+  color: #6b8196;
+}
+
+.delete {
+  height: 2.7rem;
+  width: 7.5rem;
+  border: 1px solid teal;
+  background-color: teal;
+  border-radius: 2rem;
+  margin: 0.5rem;
+}

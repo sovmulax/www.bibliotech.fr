@@ -1,0 +1,741 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mukta", sans-serif;
+}
+
+body {
+  background-color: #f2f7fb;
+  z-index: 1000;
+}
+
+div[class="body"] {
+  z-index: 15000;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+h2 {
+  letter-spacing: 2px;
+}
+/* Propriété globale des formulaires */
+
+input {
+  border: transparent;
+  border-bottom: 1px solid #149b7d;
+  width: 20rem;
+  height: 1.7rem;
+  line-height: 2rem;
+  letter-spacing: 2px;
+}
+
+input:focus {
+  border-bottom: 2px solid teal;
+}
+
+input[class="photo"] {
+  border: transparent;
+  border-bottom: 1px solid #149b7d;
+  width: 20rem;
+  height: 1.7rem;
+  line-height: 1.5rem;
+  letter-spacing: 2px;
+}
+
+input[class="photos"] {
+  outline: none;
+  color: transparent;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+button[type="submit"] {
+  height: 2.5rem;
+  width: 5rem;
+  border: 1px solid teal;
+  background-color: teal;
+  border-radius: 2rem;
+  margin: 0.5rem;
+}
+
+button[type="submits"] {
+  height: 3rem;
+  width: 9rem;
+  border: 1px solid teal;
+  background-color: teal;
+  border-radius: 2rem;
+  margin: 0.5rem;
+}
+
+button[type="submit"]:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.img-form00 {
+  height: 8.5rem;
+  width: 8.5rem;
+  border: 2px solid #f2f7fb;
+  border-radius: 100%;
+  position: absolute;
+  top: 0.5rem;
+  left: 9rem;
+  background-image: url(../img/gestionnaire/img_avatar.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.img-form01 {
+  height: 8.5rem;
+  width: 8.5rem;
+  border: 2px solid #f2f7fb;
+  border-radius: 100%;
+  position: absolute;
+  top: 0.5rem;
+  left: 8rem;
+  background-image: url(../img/gestionnaire/img_avatar.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+img[alt="profile"] {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.info {
+  width: 55rem;
+  height: 15rem;
+  text-align: center;
+  position: absolute;
+  top: 12rem;
+}
+
+.info h1 {
+  font-size: 7em;
+  color: teal;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+.info p {
+  font-style: italic;
+  font-weight: 400;
+  color: #6b8196;
+}
+
+.infos{
+  text-align: center;
+}
+
+.infos h1 {
+  font-size: 7em;
+  color: teal;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+.infos p {
+  font-style: italic;
+  font-weight: 400;
+  color: #6b8196;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 0;
+  height: 5rem;
+  width: 100%;
+}
+
+footer p {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Inscription du Gestionnaire */
+
+.error00 {
+  color: rgb(255, 0, 157);
+  position: absolute;
+  top: 10.5rem;
+  width: 100%;
+  height: 6.9rem;
+  font-size: 0.7em;
+  border: 1px solid transparent;
+  border-top: 1px solid #6b81964b;
+  border-bottom: 1px solid #6b81964b;
+}
+
+.btn00 {
+  position: absolute;
+  top: 12.7rem;
+  right: 7.5rem;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.form-place00 {
+  position: absolute;
+  top: 13%;
+  left: 60%;
+  height: 35rem;
+  width: 27rem;
+  border: 1px solid white;
+  border-radius: 12px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.205);
+  background-color: white;
+}
+
+.form-place00 form p {
+  position: absolute;
+  top: 18rem;
+  left: 3.5rem;
+}
+
+.form-place00 p a {
+  text-decoration: none;
+  position: absolute;
+  color: #6b8196;
+  bottom: 0;
+  left: 5%;
+}
+
+/* Connexion du Gestionnaire */
+
+.form-place01 {
+  position: absolute;
+  top: 26%;
+  left: 60%;
+  height: 15rem;
+  width: 25rem;
+  border: 1px solid white;
+  border-radius: 12px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.205);
+  background-color: white;
+}
+
+.error01 {
+  color: rgb(255, 0, 157);
+  font-size: 0.75em;
+  position: absolute;
+  top: 3.5rem;
+  width: 100%;
+  height: 2.5rem;
+  border-top: 1px solid #6b81964b;
+  border-bottom: 1px solid #6b81964b;
+}
+
+.form-place01 form p {
+  position: absolute;
+  top: 6.5rem;
+  left: 2.3rem;
+}
+
+.btn01 {
+  position: absolute;
+  top: 5rem;
+  right: 7.5rem;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.form-place01 h2 {
+  font-size: 2.5em;
+  position: absolute;
+  left: 6rem;
+  color: #6b8196;
+}
+
+.form-place01 p a {
+  text-decoration: none;
+  position: absolute;
+  color: #6b8196;
+  bottom: 0;
+  left: 5%;
+}
+
+/* Inscription des Clients -- étape 1 */
+
+.head-title-c {
+  font-size: 2.5em;
+  color: #669999;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.head-bar-c {
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  vertical-align: middle;
+  letter-spacing: 2px;
+}
+
+.error02 {
+  font-size: 1em;
+  line-height: 1rem;
+  color: rgb(255, 0, 157);
+  position: absolute;
+  top: 10.5rem;
+  width: 100%;
+  height: 7rem;
+  border: 1px solid transparent;
+  border-top: 1px solid #6b81964b;
+  border-bottom: 1px solid #6b81964b;
+}
+
+.btn02 {
+  position: absolute;
+  top: 10.2rem;
+  right: 7.5rem;
+  font-weight: 500;
+  font-size: 1em;
+  margin-top: 0.5rem;
+}
+
+.form-place02 {
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  height: 32rem;
+  width: 25rem;
+  border: 1px solid white;
+  border-radius: 12px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.205);
+  background-color: white;
+}
+
+.form-place02 form p {
+  position: absolute;
+  top: 18rem;
+  left: 2.3rem;
+}
+
+/* zone de text */
+
+.instru {
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  width: 40%;
+  height: 30%;
+  padding-right: 2%;
+  text-align: right;
+  border-right: 3px solid teal;
+}
+
+.instru h1 {
+  font-size: 5em;
+  color: teal;
+}
+
+.instru p {
+  color: #6b8196;
+}
+
+/* structure du client -- etape 2 */
+select {
+  border: 1px solid transparent;
+  border-bottom: 1px solid teal;
+  width: 20rem;
+  color: #6b8196;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+
+select:focus {
+  border-bottom: 2px solid teal;
+}
+
+.btn03 {
+  position: absolute;
+  top: 3.5rem;
+  left: 8.2rem;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.form-place03 {
+  position: absolute;
+  top: 33%;
+  left: 60%;
+  height: 10rem;
+  width: 25rem;
+  border: 1px solid white;
+  border-radius: 12px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.205);
+  background-color: white;
+}
+
+.form-place03 p {
+  position: absolute;
+  top: 4rem;
+  left: 2rem;
+}
+
+/* étape */
+
+.step {
+  width: 10rem;
+  height: 5%;
+  position: absolute;
+  left: 67.5%;
+  top: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.step-0 {
+  height: 1.7rem;
+  width: 1.7rem;
+  border-radius: 100%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.active {
+  background-color: teal;
+}
+
+/* Carte */
+
+.carte {
+  height: 15rem;
+  width: 27rem;
+  border-radius: 12px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.205);
+  background-color: white;
+  text-align: center;
+
+  /* position */
+  position: absolute;
+  top: 25%;
+  left: 34.45%;
+  padding: 1rem;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+.print {
+  height: 2.2rem;
+  width: 5rem;
+  border: 1px solid teal;
+  background-color: teal;
+  color: black;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.carte-position {
+  height: auto;
+  width: 80%;
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+button[class="print"]:hover {
+  cursor: pointer;
+}
+
+.attribu {
+  position: absolute;
+  top: 5rem;
+  left: 1rem;
+  line-height: 2.5rem;
+  color: #6b8196;
+}
+
+.carte-img {
+  height: 9rem;
+  width: 8rem;
+  border: 1px solid teal;
+
+  /* position */
+  position: absolute;
+  top: 30%;
+  left: 70%;
+}
+
+img[alt="carte"] {
+  height: 100%;
+  width: 100%;
+}
+
+/* Carte du gestionnaire */
+.carte-gestion {
+  height: 23rem;
+  width: 35rem;
+  border-radius: 12px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.205);
+  background-color: white;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  /* position */
+  padding: 1rem;
+}
+
+.carte-gestions {
+  height: 18rem;
+  width: 35rem;
+  border-radius: 12px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.205);
+  background-color: white;
+  margin-bottom: 5%;
+  margin-left: 5%;
+
+  /* position */
+  padding: 1rem;
+}
+
+.element-carte {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.carte-gestion h2 {
+  text-align: center;
+}
+
+.carte-gestions h2 {
+  text-align: center;
+}
+
+.img-desative {
+  height: 100%;
+  width: 8rem;
+}
+
+.buttons {
+  color: #6b8196;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+.space {
+  height: 2%;
+  color: white;
+}
+.carte-gestion-img {
+  height: 9rem;
+  width: 8rem;
+  border: 1px solid teal;
+
+  /* position 
+  position: absolute;
+  top: 20%;
+  left: 70%; */
+}
+
+.main {
+  margin-top: 11%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-detail {
+  margin-top: 11%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.attribu-gestion {
+  top: 5rem;
+  line-height: 2.5rem;
+  color: #6b8196;
+}
+
+.desactive {
+  margin-top: 10%;
+  margin-left: 18%;
+}
+
+/* Livre */
+
+.btn04 {
+  position: absolute;
+  left: 7.7rem;
+  top: 18rem;
+}
+
+.btn004 {
+  position: absolute;
+  left: 7.7rem;
+  top: 17rem;
+}
+
+/* Partie Emprunt et de retour*/
+/*
+.btn05 {
+  position: absolute;
+  top: 20rem;
+  left: 29.7rem;
+}
+
+.btn06 {
+  position: absolute;
+  top: 55rem;
+  left: 29.7rem;
+}*/
+
+.btn08 {
+  position: absolute;
+  left: 0rem;
+  top: 18rem;
+}
+
+.error03 {
+  color: rgb(255, 0, 157);
+  position: absolute;
+  font-size: 0.7em;
+  top: 7rem;
+  left: 35%;
+  width: 20rem;
+  height: 7.87rem;
+  border: 1px solid transparent;
+  border-top: 1px solid #6b81964b;
+  border-bottom: 1px solid #6b81964b;
+}
+
+.red {
+  color: rgb(255, 0, 157);
+}
+
+.btn-place {
+  position: absolute;
+  left: 3.5rem;
+  top: 10rem;
+}
+
+.btn09 {
+  position: absolute;
+  left: 7rem;
+  top: 13rem;
+}
+
+.error04 {
+  color: rgb(255, 0, 157);
+  position: absolute;
+  font-size: 0.7em;
+  top: 7rem;
+  left: 35%;
+  width: 20rem;
+  height: 4rem;
+  border: 1px solid transparent;
+  border-top: 1px solid #6b81964b;
+  border-bottom: 1px solid #6b81964b;
+}
+
+.btn10 {
+  position: absolute;
+  right: 5%;
+  top: 25%;
+}
+
+button[type="histoire"] {
+  height: 2.5rem;
+  width: 10rem;
+  border: 1px solid teal;
+  background-color: teal;
+  border-radius: 2rem;
+  margin: 0.5rem;
+}
+
+button[type="histoire"]:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.error05 {
+  color: rgb(255, 0, 157);
+  position: absolute;
+  font-size: 0.7em;
+  top: 10rem;
+  left: 35%;
+  width: 20rem;
+  height: 6rem;
+  border: 1px solid transparent;
+  border-top: 1px solid #6b81964b;
+  border-bottom: 1px solid #6b81964b;
+}
+
+form[name="form"]{
+  position: absolute;
+  top: 17rem;
+  left: 35%;
+}
+
+
+button[name="auth"]{
+  height: 3rem;
+  width: 10rem;
+  border: 1px solid teal;
+  background-color: teal;
+  border-radius: 2rem;
+  margin: 1rem;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.auth-place{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 18%;
+}
+
+.form-place0{
+  text-align: center;
+}
+
+.resume{
+  width: 20rem;
+  margin-top: 0.5rem;
+  letter-spacing: 2px;
+  margin: 1rem;
+  border: 2px solid teal;
+}
+
+.error{
+  color: rgb(255, 0, 157);
+  font-size: 0.7em;
+  width: 20rem;
+  height: 7.87rem;
+  border: 1px solid transparent;
+  border-top: 1px solid #6b81964b;
+  border-bottom: 1px solid #6b81964b;
+}

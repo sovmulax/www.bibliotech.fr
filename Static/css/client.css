@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+}
+
+header {
+  height: 8rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  vertical-align: middle;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: teal;
+  padding: 0.5rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.li {
+  border: 1px solid transparent;
+  height: 100%;
+  width: 12rem;
+  text-align: center;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  transition: 0.3s ease;
+}
+
+.li a {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.actives {
+  border: 1px solid white;
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.actives a {
+  color: white;
+}
+
+.menu-client {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.client-title {
+  height: 100%;
+}
+
+.client-title h1 a {
+  text-decoration: none;
+  font-size: 2.5em;
+  font-weight: 800;
+  color: white;
+}
+
+.client-title h1 a:hover {
+  color: #bbd3e7;
+}
+
+.containt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containt-profil {
+  display: flex;
+  justify-content: center;
+}
+
+.mini-profil {
+  padding: 1rem;
+  right: 1rem;
+  height: 20rem;
+  width: 15rem;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: baseline;
+  text-align: left;
+}
+
+.espace {
+  height: 1rem;
+  color: white;
+}
+
+.mini-img {
+  height: 6rem;
+  width: 6rem;
+  border: 1px solid transparent;
+  border-radius: 100%;
+}
+
+img[alt="profil user"] {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+button[name="client"] {
+  height: 2.5rem;
+  width: 5.2rem;
+  border: 1px solid teal;
+  background-color: teal;
+  border-radius: 2rem;
+}
+
+.title-profli {
+  font-size: 1rem;
+  color: #6b8196;
+  line-height: 2rem;
+}
+
+.sapn {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.container {
+  background-color: white;
+  border: 0px solid white;
+  border-radius: 0.5rem;
+  margin-left: 2rem;
+  width: 75rem;
+  height: 36.3rem;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-profil {
+  background-color: white;
+  border: 0px solid white;
+  border-radius: 0.5rem 0.5rem 0 0;
+  width: 75rem;
+  height: 100%;
+}
+
+textarea {
+  width: 25rem;
+  margin-top: 0.5rem;
+  letter-spacing: 2px;
+  margin: 1rem;
+  border: 2px solid teal;
+  padding: 0.5rem;
+}
+
+.main-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.mains-img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 100%;
+  margin-top: 0.5rem;
+}
+
+.info-users {
+  margin: 2rem;
+  text-align: center;
+  justify-content: space-around;
+  width: auto;
+  height: auto;
+}
+
+.contactez {
+  margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.contactez h1 {
+  margin: 1rem;
+  font-size: 2.5em;
+}
+
+.historique-user h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.historique-tableau {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.search-client {
+  width: 30rem;
+  height: 1.8rem;
+  border-radius: 3px;
+  border: solid 1px #149b7d;
+  text-align: left;
+  letter-spacing: 5px;
+  padding-left: 5px;
+  margin: 1rem;
+}

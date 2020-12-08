@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section[class="vague"] {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+section[class="vague"] .wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  background-image: url(../img/wave/wave.png);
+  background-size: 1000px 100px;
+}
+
+section[class="vague"] .wave.wave1 {
+  animation: animate 30s linear infinite;
+  z-index: 999;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+
+section[class="vague"] .wave.wave2 {
+  animation: animate2 15s linear infinite;
+  z-index: 998;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 5px;
+}
+
+section[class="vague"] .wave.wave3 {
+    animation: animate2 30s linear infinite;
+    z-index: 997;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 2px;
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -1000px;
+  }
+}
